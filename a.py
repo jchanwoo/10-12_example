@@ -1,2 +1,5 @@
-def 안녕123():
-    print("안녕하세요 정찬우입니다.")
+i=1
+numrange=range(1,10)
+for i in numrange:
+    for j in numrange:
+        print(f'{i}*{j}={i*j}')
